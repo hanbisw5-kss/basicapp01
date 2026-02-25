@@ -4,7 +4,8 @@ import './App.css';
 import { FcCopyright } from "react-icons/fc";
 import { IoHome } from "react-icons/io5";
 // import MyDiv1 from './03/MyDiv1';
-import MyList from './04/MyList';
+// import MyList from './04/MyList';
+import Lotto from './05/Lotto';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <p><IoHome /></p>
      </header>
      <main className='grow w-full flex justify-center items-center overflow-y-auto'>
-          <MyList />
+          <Lotto />
      </main>
      <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
           <FcCopyright /> Kim Seong Sik 01
